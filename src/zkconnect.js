@@ -10,7 +10,7 @@ const verify = async () => {
       console.log("starting zkconnect")
       const connector = new TransgateConnect(appid)
       // The schema id of the project
-      const schemaId = "aeb73560d71d47458b2f1643f065f081"
+      const schemaId = "ac3a1f7f2661429e96956aab9bc777f2"
   
       // Launch the process of verification
       const res = await connector.launch(schemaId)

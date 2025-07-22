@@ -23,13 +23,13 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-white px-4">
       <main className="flex flex-col items-center w-full max-w-md mx-auto p-8 rounded-xl shadow-lg border border-gray-200 bg-white">
-        <h1 className="text-3xl text-black font-bold text-center mb-10 tracking-tight">Twitter login using zk</h1>
+        <h1 className="text-2xl text-black font-bold text-center mb-10 tracking-tight">Checking whether user has followed a IoPn twitter account with zk.</h1>
         <div className="flex flex-row gap-4 mb-8 w-full justify-center">
           <button
             className="bg-black text-white font-semibold py-3 px-8 rounded-full shadow transition-colors text-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-black focus:ring-opacity-50"
             onClick={handleConnect}
           >
-            Connect
+            let's connect and check!
           </button>
           {proofs && (
             <button
