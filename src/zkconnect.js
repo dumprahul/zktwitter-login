@@ -4,13 +4,13 @@ import TransgateConnect from "@zkpass/transgate-js-sdk"
 const verify = async () => {
     try {
       // The appid of the project created in dev center
-      const appid = "c381ac08-25c4-4a9d-93aa-1a336ddac821"
+      const appid = "914ae40c-9a43-4dbc-b354-c4ddd56f984d"
   
       // Create the connector instance
       console.log("starting zkconnect")
       const connector = new TransgateConnect(appid)
       // The schema id of the project
-      const schemaId = "75006dee41f2465b9b4516a91da68280"
+      const schemaId = "d917b2a724f54b71aeb6834b11c1a959"
   
       // Launch the process of verification
       const res = await connector.launch(schemaId)
